@@ -44,7 +44,7 @@ footer {
 
 .img {
   height: 150px;
-  background-position: center;
+  background-position: bottom;
   background-size: cover;
 }
 
@@ -63,4 +63,16 @@ footer {
 .heading {
   padding-top: 15px;
   padding-bottom: 5px;
+}
+
+@media screen and (max-width:768px) {
+  .contents {
+    width: 90%;
+    margin: 50px auto;
+    display: block;
+  }
+
+  .content {
+    margin: 0 0 20px;
+  }
 }
